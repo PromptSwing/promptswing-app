@@ -1,0 +1,25 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navy: #0B1D39;
+  --orange: #F75C03;
+  --white: #FFFFFF;
+  --slate: #859CAC;
+}
+
+html, body {
+  height: 100%;
+  background: #FFFFFF;
+  color: var(--navy);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
