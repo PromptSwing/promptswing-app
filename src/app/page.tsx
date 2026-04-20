@@ -124,10 +124,9 @@ export default function Home() {
         <p style={{ fontSize: '12px', color: '#C9A0A0' }}>© 2025 PromptSwing</p>
         <nav style={{ display: 'flex', gap: '32px' }}>
           {[
-            { label: 'Intelligence', href: '/intelligence' },
-            { label: 'Abandoned Cart', href: '/abandoned' },
-            { label: 'Reviews', href: '/reviews' },
-            { label: 'Captain', href: '/captain' },
+            { label: 'Pricing', href: '/pricing' },
+            { label: 'Refund', href: '/refund' },
+            { label: 'Terms', href: '/terms' },
             { label: 'Privacy', href: '/privacy' },
           ].map((l) => (
             <Link key={l.href} href={l.href} style={{ fontSize: '11px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#C9A0A0', fontWeight: 500 }}>
