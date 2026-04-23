@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
-import { DM_Sans } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
+const dmSans = localFont({
+  src: [
+    { path: '../../public/fonts/dm-sans-400.ttf', weight: '400', style: 'normal' },
+    { path: '../../public/fonts/dm-sans-500.ttf', weight: '500', style: 'normal' },
+    { path: '../../public/fonts/dm-sans-700.ttf', weight: '700', style: 'normal' },
+  ],
   variable: '--font-dm-sans',
 })
 
