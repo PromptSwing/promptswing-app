@@ -17,10 +17,10 @@ export default function Intelligence() {
         </a>
       </header>
       <section style={{ padding: '80px 48px 64px', maxWidth: '800px', margin: '0 auto' }}>
-        <p style={{ fontSize: '11px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#F75C03', fontWeight: 700, marginBottom: '20px' }}>Shopify App</p>
+        <p style={{ fontSize: '11px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#F75C03', fontWeight: 700, marginBottom: '20px' }}>Revenue Intelligence</p>
         <h1 style={{ fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 700, color: '#0B1D39', lineHeight: 1.2, marginBottom: '24px' }}>Intelligence Suite</h1>
         <p style={{ fontSize: '17px', color: '#859CAC', lineHeight: 1.8, maxWidth: '560px', marginBottom: '36px' }}>
-          Three diagnostic tools in one Shopify app. Each tool reads a different layer of your revenue engine and surfaces what the signal says. Powered by Shopify order and checkout data.
+          Three diagnostic tools in one. Each tool reads a different layer of your revenue engine and surfaces what the signal says. Powered by your store order and checkout data.
         </p>
         <a href="https://apps.shopify.com/partners/promptswing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 700, color: '#FFFFFF', background: '#F75C03', padding: '12px 22px', borderRadius: '4px' }}>
           Available on Shopify
