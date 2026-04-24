@@ -173,7 +173,7 @@ export default function Home() {
         <nav style={{ display: 'flex', gap: '32px' }}>
           {[
             { label: 'Pricing', href: '/pricing' },
-            { label: 'Refund', href: '/refund' },
+            { label: 'Refund', href: '/refund-policy' },
             { label: 'Terms', href: '/terms' },
             { label: 'Privacy', href: '/privacy' },
           ].map((l) => (
