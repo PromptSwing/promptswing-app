@@ -10,7 +10,7 @@ export default function Terms() {
       <h1 style={{ fontSize: '28px', fontWeight: 700, color: '#0B1D39', marginBottom: '8px' }}>Terms of Service</h1>
       <p style={{ fontSize: '13px', color: '#859CAC', marginBottom: '48px' }}>Effective Date: April 19, 2026</p>
       <div style={{ fontSize: '15px', lineHeight: '1.8', color: '#0B1D39' }}>
-        <p style={{ marginBottom: '24px' }}>These Terms of Service govern your use of PromptSwing products and services, including the native platform at app.promptswing.com and all Shopify apps published under the PromptSwing brand. By registering or using any PromptSwing service, you agree to these terms.</p>
+        <p style={{ marginBottom: '24px' }}>These Terms of Service govern your use of PromptSwing products and services, operated by Bergen Ridge LLC, including the native platform at app.promptswing.com and all Shopify apps published under the PromptSwing brand. By registering or using any PromptSwing service, you agree to these terms.</p>
         <div style={{ marginBottom: '32px' }}>
           <h2 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '12px' }}>1. Services</h2>
           <p>PromptSwing provides SaaS tools for ecommerce merchants including abandoned cart recovery, customer review management, revenue intelligence diagnostics, and commerce belief governance. Services are provided on a subscription basis.</p>
@@ -45,7 +45,7 @@ export default function Terms() {
         </div>
         <div style={{ marginBottom: '32px' }}>
           <h2 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '12px' }}>9. Contact</h2>
-          <p><a href="mailto:hello@promptswing.com" style={{ color: '#F75C03' }}>hello@promptswing.com</a></p>
+          <p>Bergen Ridge LLC<br /><a href="mailto:hello@promptswing.com" style={{ color: '#F75C03' }}>hello@promptswing.com</a></p>
         </div>
       </div>
     </main>

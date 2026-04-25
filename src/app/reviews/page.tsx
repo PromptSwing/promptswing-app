@@ -20,13 +20,23 @@ export default function Reviews() {
       <section style={{ padding: '80px 48px 64px', maxWidth: '800px', margin: '0 auto' }}>
         <p style={{ fontSize: '11px', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#F75C03', fontWeight: 700, marginBottom: '20px' }}>Shopify App</p>
         <h1 style={{ fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 700, color: '#0B1D39', lineHeight: 1.2, marginBottom: '24px' }}>Customer Reviews</h1>
-        <p style={{ fontSize: '17px', color: '#859CAC', lineHeight: 1.8, maxWidth: '560px', marginBottom: '36px' }}>
+        <p style={{ fontSize: '17px', color: '#859CAC', lineHeight: 1.8, maxWidth: '560px' }}>
           One review request per order. A private resolution system for unhappy customers. A responsiveness score that measures how well you handle problems — not just how many stars you collect.
         </p>
-        <a href="https://apps.shopify.com/partners/promptswing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 700, color: '#FFFFFF', background: '#F75C03', padding: '12px 22px', borderRadius: '4px' }}>
-          Available on Shopify
-        </a>
-        <p style={{ fontSize: '11px', color: '#C9A0A0', marginTop: '10px', letterSpacing: '0.08em' }}>Submission in progress</p>
+        <div style={{ marginTop: '32px' }}>
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'center', marginBottom: '20px' }}>
+            <a href="https://apps.shopify.com/partners/promptswing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 700, color: '#FFFFFF', background: '#0B1D39', padding: '12px 22px', borderRadius: '4px', textDecoration: 'none' }}>Shopify App Store</a>
+            <a href="https://app.promptswing.com/register" style={{ display: 'inline-block', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 700, color: '#FFFFFF', background: '#F75C03', padding: '12px 22px', borderRadius: '4px', textDecoration: 'none' }}>Connect your store</a>
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
+            <p style={{ fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9A0A0', fontWeight: 700, marginRight: '8px' }}>Works with</p>
+            <span style={{ fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600, padding: '4px 10px', borderRadius: '3px', background: '#F75C03', color: '#FFFFFF' }}>Shopify</span>
+            <span style={{ fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600, padding: '4px 10px', borderRadius: '3px', background: '#F8F8F8', color: '#859CAC', border: '1px solid #E8E8E8' }}>WooCommerce · Soon</span>
+            <span style={{ fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600, padding: '4px 10px', borderRadius: '3px', background: '#F8F8F8', color: '#859CAC', border: '1px solid #E8E8E8' }}>BigCommerce · Soon</span>
+            <span style={{ fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600, padding: '4px 10px', borderRadius: '3px', background: '#F8F8F8', color: '#859CAC', border: '1px solid #E8E8E8' }}>Magento · Soon</span>
+            <span style={{ fontSize: '10px', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 600, padding: '4px 10px', borderRadius: '3px', background: '#F8F8F8', color: '#859CAC', border: '1px solid #E8E8E8' }}>Headless · Soon</span>
+          </div>
+        </div>
       </section>
       <div style={{ height: '1px', background: '#F0F0F0', margin: '0 48px' }} />
       <section style={{ padding: '64px 48px', maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '32px' }}>

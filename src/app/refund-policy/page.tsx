@@ -28,10 +28,6 @@ export default function RefundPolicy() {
           <p style={{ color: '#859CAC' }}>Captain's one-time free run carries no refund eligibility. Shopify app free installs are subject to Shopify's billing terms — no PromptSwing charge applies until usage-based billing is triggered.</p>
         </div>
         <div style={{ marginBottom: '32px' }}>
-          <h2 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '12px' }}>Exceptions</h2>
-          <p style={{ color: '#859CAC' }}>Refunds outside this policy may be considered at PromptSwing's sole discretion in cases of documented technical failure that prevented access to a paid feature for a material portion of your billing period. Requests must be submitted within 14 days of the incident.</p>
-        </div>
-        <div style={{ marginBottom: '32px' }}>
           <h2 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '12px' }}>Processing</h2>
           <p style={{ color: '#859CAC' }}>Approved refunds are processed by Paddle and typically appear within 5–10 business days depending on your payment provider.</p>
         </div>

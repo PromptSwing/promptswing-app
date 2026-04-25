@@ -79,7 +79,7 @@ export default function Home() {
               {tool.label}
             </Link>
           ))}
-          <a href="https://app.promptswing.com" style={{ fontSize: '14px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#0B1D39', fontWeight: 700 }}>
+          <a href="https://app.promptswing.com/login" style={{ fontSize: '14px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#0B1D39', fontWeight: 700 }}>
             Log in
           </a>
         </nav>
@@ -102,6 +102,9 @@ export default function Home() {
         <p style={{ fontSize: '18px', color: '#859CAC', lineHeight: 1.75, maxWidth: '580px' }}>
           Keep your customers. Analyze what your revenue is doing. Fix what's lost and leaking. PromptSwing tools pay for themselves. Then keep going.
         </p>
+        <a href="https://app.promptswing.com/register" style={{ display: 'inline-block', marginTop: '32px', background: '#F75C03', color: '#FFFFFF', fontSize: '13px', fontWeight: 600, padding: '12px 28px', borderRadius: '6px', textDecoration: 'none' }}>
+          Get started
+        </a>
       </section>
 
       <div style={{ height: '1px', background: '#F0F0F0', margin: '0 48px' }} />
@@ -132,6 +135,11 @@ export default function Home() {
                   <Link href={tool.href} style={{ display: 'inline-block', marginTop: '20px', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 600, color: '#C9A0A0' }}>
                     Learn more →
                   </Link>
+                  {tool.ctaHref !== null && (
+                    <a href="https://app.promptswing.com/register" style={{ display: 'inline-block', marginTop: '12px', marginLeft: '20px', fontSize: '13px', fontWeight: 600, color: '#F75C03', textDecoration: 'none' }}>
+                      Get started →
+                    </a>
+                  )}
                 </div>
               </div>
               {tool.platforms.length > 0 && (
