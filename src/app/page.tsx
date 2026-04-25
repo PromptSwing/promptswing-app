@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import ShopifyModal from './ShopifyModal'
 
 const tools = [
   {
@@ -146,19 +147,21 @@ export default function Home() {
                 <div style={{ marginTop: '28px', paddingTop: '20px', borderTop: '1px solid #F0F0F0', display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
                   <p style={{ fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase', color: '#C9A0A0', fontWeight: 700, marginRight: '8px' }}>Works with</p>
                   {tool.platforms.map((p) => (
-                    <span key={p.label} title={p.note || ''} style={{
-                      fontSize: '10px',
-                      letterSpacing: '0.1em',
-                      textTransform: 'uppercase',
-                      fontWeight: 600,
-                      padding: '4px 10px',
-                      borderRadius: '3px',
-                      background: p.status === 'live' ? '#F75C03' : '#F8F8F8',
-                      color: p.status === 'live' ? '#FFFFFF' : '#859CAC',
-                      border: p.status === 'live' ? 'none' : '1px solid #E8E8E8',
-                    }}>
-                      {p.label}{p.status === 'coming' ? ' ·  Soon' : ''}
-                    </span>
+                    p.status === 'live'
+                      ? <ShopifyModal key={p.label} />
+                      : <span key={p.label} title={p.note || ''} style={{
+                          fontSize: '10px',
+                          letterSpacing: '0.1em',
+                          textTransform: 'uppercase',
+                          fontWeight: 600,
+                          padding: '4px 10px',
+                          borderRadius: '3px',
+                          background: '#F8F8F8',
+                          color: '#859CAC',
+                          border: '1px solid #E8E8E8',
+                        }}>
+                          {p.label}{p.status === 'coming' ? ' · Soon' : ''}
+                        </span>
                   ))}
                 </div>
               )}
