@@ -124,14 +124,6 @@ export default function Home() {
                       {tool.label}
                     </h2>
                   </Link>
-                  {tool.ctaHref && (
-                    <div>
-                      <a href={tool.ctaHref} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', fontSize: '11px', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 700, color: '#FFFFFF', background: '#F75C03', padding: '10px 18px', borderRadius: '4px' }}>
-                        Available on Shopify
-                      </a>
-                      <p style={{ fontSize: '11px', color: '#C9A0A0', marginTop: '10px', letterSpacing: '0.08em' }}>Submission in progress</p>
-                    </div>
-                  )}
                 </div>
                 <div style={{ borderLeft: '2px solid #F0F0F0', paddingLeft: '48px' }}>
                   <p style={{ fontSize: '15px', color: '#859CAC', lineHeight: 1.8 }}>
